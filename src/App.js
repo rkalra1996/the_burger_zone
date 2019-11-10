@@ -8,16 +8,21 @@ import MainSidebar from './components/main-sidebar/main-sidebar';
 // font-awesome import
 import {library} from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faAlignRight } from '@fortawesome/free-solid-svg-icons'
+import { faAlignRight, faAlignLeft } from '@fortawesome/free-solid-svg-icons'
 
-library.add(fab, faAlignRight)
+library.add(fab, faAlignRight, faAlignLeft)
 
 
 function App() {
+  const listItemsForSidebar = [
+    'Categories',
+    'About Us',
+    'Contact Us'
+  ]
   return (
     <div className="App">
       <Header />
-      <MainSidebar/>
+      <MainSidebar sidebarItems={listItemsForSidebar}/>
     </div>
   );
 }

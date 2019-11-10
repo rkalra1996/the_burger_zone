@@ -23,8 +23,6 @@ const Header = () => {
                     <button className="navbar-login-btn">LOGIN</button>
                     <button className="navbar-signup-btn">SIGN UP</button>
                     </div>
-                    {/**
-                     <FontAwesomeIcon icon="align-right" className="sidebar-toggle-btn" onClick={console.log('clicked')}/> */}
                 </div>
             </div>
         </div>
