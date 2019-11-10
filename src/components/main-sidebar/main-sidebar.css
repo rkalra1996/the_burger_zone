@@ -1,0 +1,10 @@
+.main-sidbar-wrapper {
+    color: black;
+    margin: 0;
+    max-width: 25%;
+    height: 100%;
+}
+
+.main-sidebar-container .item{
+    margin: 0;
+}

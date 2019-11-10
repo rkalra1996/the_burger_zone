@@ -1,0 +1,60 @@
+.header-wrapper {
+    width: 100%;
+    color: white;
+}
+
+.header-wrapper .header-container {
+    background-color: black;
+    height: 100px;
+    display: flex;
+}
+
+.header-container .left-section, .header-container .right-section {
+    flex: 1;
+}
+
+.header-container .left-section {
+    max-width: 40%;
+    background-color: inherit;
+}
+
+.left-section .logo-container {
+    max-width: 35%;
+    height: 100%;
+    position: relative;
+}
+
+.logo-container img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: black;
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.header-wrapper .right-section {
+    text-align: right;
+}
+
+.login-signup-container {
+    float: right;
+    height: 100%;
+    padding-top: 20px;
+}
+
+.navbar-login-btn, .navbar-signup-btn {
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    margin: 0 10px;
+}
+
+.navbar-login-btn:hover, .navbar-signup-btn:hover {
+    background-color: tomato;
+    transition: 1s;
+    cursor: pointer;
+}
